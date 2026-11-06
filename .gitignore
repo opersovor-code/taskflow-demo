@@ -7,11 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
+node_modules/
+dist/
 dist-ssr
 dev-dist
 *.local
+.env
+.env.*
+!.env.example
+.dev.vars*
+.wrangler/
 
 # Editor directories and files
 .vscode/*
@@ -23,3 +28,7 @@ dev-dist
 *.njsproj
 *.sln
 *.sw?
+
+# Звіт (не потрібен в репозиторії)
+*.pdf
+*.docx
