@@ -1,0 +1,51 @@
+export const tasks = [
+  {
+    id: 1,
+    title: 'Створити структуру проєкту',
+    description: 'Підготувати каталоги та файли TaskFlow',
+    status: 'done',
+    priority: 'high',
+  },
+  {
+    id: 2,
+    title: 'Налаштувати Framework7',
+    description: 'Підключити мобільні компоненти інтерфейсу',
+    status: 'progress',
+    priority: 'medium',
+  },
+  {
+    id: 3,
+    title: 'Реалізувати картку завдання',
+    description: 'Створити компонент TaskCard',
+    status: 'todo',
+    priority: 'medium',
+  },
+  {
+    id: 4,
+    title: 'Перевірити PWA',
+    description: 'Зібрати та встановити застосунок',
+    status: 'todo',
+    priority: 'low',
+  },
+  {
+    id: 5,
+    title: 'Створити GitHub-репозиторій',
+    description: 'Завантажити проєкт у репозиторій taskflow-demo',
+    status: 'done',
+    priority: 'high',
+  },
+  {
+    id: 6,
+    title: 'Підключити Cloudflare Workers',
+    description: 'Налаштувати автоматичний деплой після git push',
+    status: 'done',
+    priority: 'medium',
+  },
+  {
+    id: 7,
+    title: 'Написати звіт',
+    description: 'Описати виконану роботу та додати скриншоти',
+    status: 'progress',
+    priority: 'low',
+  },
+];
